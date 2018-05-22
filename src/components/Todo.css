@@ -1,0 +1,17 @@
+.todo_wrapper{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between; 
+}
+.todo{
+  padding: 15px 5px ;
+  margin: 5px 0;
+  border-bottom: 1px solid #999;
+  width:95%;
+}
+.remove_btn{
+  height: 30px;
+  border: none;
+  cursor: pointer;
+  float: right;
+}

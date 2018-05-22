@@ -1,0 +1,23 @@
+.form{
+  position: absolute;
+  /* background-color: rgba(255,255,255, 1); */
+  /* background: linear-gradient(bottom, #ff4b1f, #ff9068); */
+  height: 100vh;
+  width: 100%;
+  z-index: 40;
+  left: 0px;
+  top: 0px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+.form_wrapper{
+  height: 400px;
+  width: 30%;
+  padding: 50px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}

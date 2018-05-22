@@ -1,0 +1,30 @@
+.counter{
+  width: 300px;
+  height: 150px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin: 0 50px;
+  border-radius: 4px;
+}
+.counter:nth-child(1){
+  background: linear-gradient(-45deg, #82dae9, #0b7dd5);
+}
+.counter:nth-child(2){
+  background: linear-gradient(-45deg, #e157a8, #9039c6);
+}
+.counter:nth-child(3){
+  background: linear-gradient(-45deg, #ecb082, #e35774);
+}
+.counter > h5{
+  letter-spacing: 3px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.counter > h6{
+  font-size: 50px;
+  margin-bottom: 10px;
+}

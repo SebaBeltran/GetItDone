@@ -1,0 +1,41 @@
+.forecast_wrapper{
+  margin-top:100px;
+}
+h3{
+  font-size: 18px;
+  line-height: 1.5;
+}
+.city{
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.forecast_info{
+  margin-top: 30px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+.temps{
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+.temp{
+  font-size: 40px;
+}
+.weather_icon{
+  margin-bottom: 10px;
+}
+.max_min{
+  margin-left: 5px;
+}
+
+.max_min > p:nth-child(1){
+  margin-bottom: 3px;
+}
+
+.max_min > p > :nth-child(1){
+  margin-left: 10px;
+}

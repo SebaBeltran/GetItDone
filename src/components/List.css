@@ -1,0 +1,129 @@
+h1{
+  font-size: 30px;
+  height: 40px;
+}
+.list{
+  width: 35%;
+  background-color:white;
+  margin: 40px auto;
+  border-radius: 4px;
+  border-left: 4px solid #ff2d5c;
+  align-self: flex-start;
+  padding-bottom: 30px;
+} 
+.border{
+  position: relative;
+  height: 100%;
+  width: 3px;
+  background:linear-gradient(top, #ff404b, #ff2d5c);
+}
+.list_header{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 30px
+}
+.list_name{
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+}
+.list_body{
+  margin: 0 30px;
+}
+.list_item{
+  padding: 20px 0;
+  position: relative;
+  border-bottom: 1px solid #ddd;
+}
+.test{
+  display: flex;
+  flex-flow: column;
+  /* flex-direction: column-reverse; */
+}
+
+:focus{outline: none;}
+
+.effect-1 {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 16px;
+  font-weight: 100px;
+  height: 50px;
+  width: 100%;
+  border: 0; 
+  padding: 10px; 
+  border-bottom: 1px solid #ccc;
+}
+
+.effect-1 ~ .focus-border {
+  position: relative; 
+  bottom: 2px; 
+  left: 0; 
+  width: 0; 
+  height: 2px; 
+  background-color: #ff2d5c;
+   transition: 0.4s;
+}
+
+.effect-1:focus ~ 
+.focus-border{
+  width: 100%; 
+  transition: 0.4s;
+}
+.form button {
+  outline: none;
+  height: 40px;
+  text-align: center;
+  width: 130px;
+  border-radius: 40px;
+  background: #fff;
+  border: 2px solid #ff404b;
+  color: #ff404b;
+  letter-spacing: 1px;
+  text-shadow: 0;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+.form button:hover {
+  color: white;
+  background: #ff2d5c;
+  letter-spacing: 2px;
+}
+.top-3{
+  margin-top: 30px;
+}
+
+.list_footer{
+  width:100% + 4px;
+  margin-top: 30px;
+  background-color: rgb(231, 231, 231);
+  padding: 10px;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  margin-left:-4px;
+  text-align: center;
+}
+.edit_btn{
+  margin-left:20px;
+  border:none;
+  cursor: pointer;
+}
+.remove_list{
+  font-size: 30px;
+  border: none;
+  cursor: pointer;
+  margin-top: 5px;
+  margin-right: 5px;
+  color: rgb(187, 187, 187);
+  transition: all 0.4s ease;
+  float: right;
+
+}
+
+.remove_list:hover{
+  color: #ff2d5c;
+}
